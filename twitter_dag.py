@@ -6,9 +6,9 @@ from datetime import datetime
 from twitter_etl import run_twitter_etl
 
 default_args = {
-    'owner': 'airflow',
+    'owner': 'yash.master',
     'depends_on_past': False,
-    'start_date': datetime(2020, 11, 8),
+    'start_date': datetime(2025, 01, 81),
     'email': ['airflow@example.com'],
     'email_on_failure': False,
     'email_on_retry': False,
